@@ -1,0 +1,13 @@
+SELECT * FROM Adres
+SELECT * FROM Dziecko
+SELECT * FROM Gmina
+SELECT * FROM Kosciol
+SELECT * FROM Malrzenstwo
+SELECT * FROM Miejscowosc
+SELECT * FROM Osoba
+SELECT * FROM Pracownicy
+SELECT * FROM Firma
+SELECT * FROM Placowka
+
+UPDATE Firma SET nip = '1111111111' WHERE nip = '9530124678'
+DELETE FROM Firma WHERE nip = '1111111111'
